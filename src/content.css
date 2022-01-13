@@ -1,0 +1,251 @@
+.content {
+  margin-top: 15px !important;
+}
+.content__product-new-name {
+  padding: 15px !important;
+  border-radius: 2px;
+  background-color: #000064 !important;
+  border: none !important;
+  font-weight: 600;
+  width: auto !important;
+  outline: none;
+  color: #fff;
+  margin-bottom: 20px;
+  outline: none !important;
+}
+.content__product-new-name:hover {
+  background-color: #0000a0 !important;
+}
+.content__product-item {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.content__product-tablet {
+  display: none;
+}
+.content__product-item a {
+  color: black !important;
+  font-size: 16px !important;
+}
+.content .content__product img {
+  height: 200px;
+  cursor: pointer;
+}
+.content img:hover {
+  opacity: 0.6;
+}
+.content .card .sale {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  background-color: red;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.content .card .card-body {
+  width: 100%;
+  padding: 10px 0px;
+}
+.content .card .card-body .card-title {
+  color: black;
+}
+.content .card .card-body h5 a:hover {
+  color: #0000a0 !important;
+}
+.content .card .card-body .card-text {
+  width: 100% !important;
+}
+.content .card .card-body .card-text-sale {
+  text-decoration: line-through;
+  color: #aeaeae !important;
+}
+.content .card .card-body span {
+  color: red;
+}
+.content__product-detail {
+  text-align: center;
+}
+.content__product-detail-btn {
+  width: 170px;
+  margin: 0 auto;
+  padding: 10px;
+  color: #fff;
+  border: none;
+  background-color: #220c38;
+  outline: none;
+  margin-bottom: 20px;
+  outline: none !important;
+}
+.content__product-detail-btn:hover {
+  background-color: #350f5c;
+}
+a.btn {
+  color: #fff !important;
+}
+.my_spinner {
+  width: 30px;
+  text-align: center;
+  height: 30px;
+  outline: none;
+}
+
+/*all-product*/
+.content .content__allproduct img {
+  height: 200px;
+  cursor: pointer;
+}
+.content__allproduct-nav ol {
+  background-color: #170240;
+  padding-left: 10px;
+}
+.content__allproduct ol li {
+  font-size: 16px;
+  font-weight: 600;
+}
+.content__allproduct-link:hover {
+  color: #8869e4 !important;
+}
+#msg {
+  display: none;
+}
+#msg1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.pagination {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.pagination .page-item {
+  cursor: pointer;
+}
+.pagination .page-link {
+  margin-right: 1px;
+}
+.pagination .page-item a {
+  color: white !important;
+  background-color: #220c38 !important;
+  border: none
+}
+.pagination .page-item a:hover {
+  background-color: blue !important;
+}
+
+.pagination .active {
+  border: 1px solid #c0c0c0 !important;
+}
+
+/*Price sort*/
+.price_sort {
+  margin-bottom: 25px;
+  text-align: right;
+  margin-top: 20px;
+}
+.price_sort-hide {
+  display: none;
+}
+.price_sort #selection-sort {
+  outline: none;
+  border: 1px solid #c0c0c0;
+  height: 30px;
+  padding: 0 10px;
+  line-height: 30px;
+  border-radius: 3px;
+}
+
+/*------------Posts-------------*/
+.posts {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.posts a:hover {
+  color: #8869e4 !important;
+}
+.posts img {
+  width: 100%;
+  height: 140px;
+}
+.posts img:hover {
+  opacity: 0.7;
+  box-shadow: 1px 1px 5px #d7d7d7;
+}
+.posts__list-item {
+  background-color: #220c38;
+  padding: 20px;
+  border-radius: 2px;
+}
+.posts__list-item h5 {
+  text-align: center;
+}
+.posts__list-item hr {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 20px;
+}
+.item-wapper {
+  display: flex;
+  margin-bottom: 30px;
+}
+.item-wapper:last-child {
+  margin-bottom: 0px;
+}
+.item-wapper .item-img {
+  width: 40%;
+}
+.item-wapper .item-text {
+  padding-left: 20px;
+  width: 60%;
+}
+
+
+.btn1, .btn2 {
+  border: 1px solid #c0c0c0;
+  height: 34px;
+  outline: none !important;
+  background-color: white;
+  padding: 0 auto;
+  text-align: center;
+  position: relative;
+  top: -1px;
+
+}
+
+.btn1 {
+  border-right: none;
+}
+
+
+
+.btn2 {
+  border-left: none;
+}
+
+.btn1:hover , .btn2:hover {
+  background-color: #c0c0c0;
+}
+.my_spinner {
+  width: 30px;
+  height: 34px;
+  border: 1px solid #c0c0c0;
+}
+
+.price_sale{
+  margin-left: 10px;
+}
+
+.card-img-top {
+  height: 200px;
+}
+
+#img_productDetail {
+  height: 300px !important;
+}

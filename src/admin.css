@@ -1,0 +1,177 @@
+.admin {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0px 20px;
+	 margin-top: 5px;
+}
+
+.admin__header {
+	display: flex;
+	justify-content: space-between;
+	height: 50px;
+	background-color: #220c38;
+	align-items: center;
+	padding-right: 20px;
+	margin-bottom: 30px;
+}
+.admin__header img {
+	width: 200px;
+	height: 50px;
+}
+.admin .btn-success {
+	margin-right: 10px;
+}
+
+.admin__header i {
+	font-size: 12px;
+	position: relative;
+	top: -2px;
+	margin-right: 5px;
+}
+
+.admin__header a:hover {
+	color: #8869e4 !important;
+}
+.admin__nav {
+	margin-bottom: 30px;
+}
+
+.admin__nav ul {
+	display: flex;
+	justify-content: left;
+	margin: 0px;
+	padding: 0px;
+}
+.admin__nav ul li {
+	padding:0 10px;
+	width: 240px;
+	margin-right: 10px;
+	background-color: white;
+	border-radius: 2px;
+	text-align: center;
+	height: 40px;
+}
+.admin__nav-active {
+	background-color: #007fff !important;
+}
+.admin__nav ul li a {
+	color: black !important;
+    outline: none;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.admin__content table {
+	width: 100%;
+}
+.admin__content {
+	margin-bottom: 30px;
+}
+tr,th,td {
+	border: 1px solid black;
+	text-align: center;
+}
+.admin__content table thead {
+	background-color: #006c00;
+	height: 40px;
+}
+
+.admin__content tr td img {
+	width: 250px;
+	height: 150px;
+}
+.admin__content tr td {
+	background-color: white;
+	color: black;
+	font-size: 16px;
+	font-weight: 600;
+}
+.admin__content table thead th:nth-child(1){
+	width: 50px;
+}
+.admin__content table thead th:nth-child(2){
+	width: 150px;
+}
+.admin__content table thead th:nth-child(3){
+	width: 90px;
+}
+.admin__content table thead th:nth-child(4){
+	width: 250px;
+}
+.admin__content table thead th:nth-child(5){
+	width: 80px;
+}
+.admin__content table thead th:nth-child(6) {
+	width: 80px;
+}
+.admin__content table thead th:nth-child(7) {
+	width: 100px;
+}
+.admin__content table thead th:nth-child(8) {
+	width: 60px;
+}
+.admin__content table thead th:nth-child(9) {
+	width: 250px;
+}
+.admin-modal .form-group {
+	padding:0 30px;
+}
+.admin-modal label {
+	color: black;
+	display: block;
+	font-weight: 600;
+	font-size: 18px;
+}
+.admin-modal input {
+	width: 100%;
+	height: 40px;
+	padding: 0px 10px;
+	outline: none;
+}
+.form-group select {
+	width: 100%;
+	height: 40px;
+	padding: 0 10px;
+	outline: none;
+}
+.admin-modal textarea {
+	height: 100px !important;
+	padding: 10px;
+	width: 100%;
+	outline: none;
+}
+.admin-modal .btn {
+	width: 80px;
+	display: block;
+	margin: 0 auto;
+}
+
+.btnNew {
+	width: 100%;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+.btnNew .btn {
+	outline: none !important;
+	width: 180px;
+	height: 40px;
+}
+.btnNew .search {
+	position: relative;
+}
+.btnNew .search input {
+	outline: none;
+}
+.btnNew .search i {
+	position: absolute;
+	top: 12px;
+	right: -12px;
+	z-index: 10;
+	color: black;
+	cursor: pointer;
+}
+.btnNew .search i:hover {
+	font-size: 18px;
+}
